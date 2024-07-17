@@ -26,6 +26,29 @@
                 <img src="img/img.png" alt="Demo Image">
             </div>
         </div>
+        <!-- Модальное окно -->
+        <div id="modal" class="modal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+            <div class="modal-content">
+                <span class="close-btn" aria-label="Закрыть">&times;</span>
+                <h2 class="modalTitle">Войти в систему</h2>
+                <div class="input-container">
+                    <input type="text" id="email" placeholder="" aria-label="Email/Телефон">
+                    <label for="email">Email/Телефон</label>
+                </div>
+                <div class="input-container">
+                    <input type="password" id="password" placeholder=" " aria-label="Пароль">
+                    <label for="password">Пароль</label>
+                </div>
+                <div style="margin-top: 24px; font-size: 18px;">
+                    <input type="checkbox" aria-label="Запомнить пароль" style="transform: scale(1.5); margin-right: 14px;"> Запомнить пароль
+                </div>
+                <div style="margin-top: 24px; margin-bottom: 36px;">
+                    <a href="#" style="text-decoration: none; color: #244c98; font-size: 20px; ">Восстановить</a>
+                </div>
+                <button class="login-btn">Войти</button>
+                <button class="register-btn">Зарегистрироваться</button>
+            </div>
+        </div>
     <script src="app.js"></script>
 </body>
 
