@@ -189,4 +189,82 @@ button {
 .login-btn:hover {
     background-color: #0056b3;
 }
+/* Медиа запросы */
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90rem;
+    }
+
+    .title {
+        font-size: 1.62rem;
+    }
+
+    .text {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-content: flex-start;
+        padding-left: 2rem;
+        margin: 24px;
+        height: auto;
+        width: auto;
+        padding: 0;
+        gap: 0;
+    }
+
+    .text-section {
+
+        padding: 24px;
+    }
+
+    .text {
+        margin-bottom: 24px;
+    }
+
+    #openModalBtn {
+        width: 16.31rem;
+        height: 3.5rem;
+        font-size: 0.94rem;
+        padding: 12px;
+    }
+
+    #openModalBtn .icon {
+        padding: 6px;
+    }
+
+    .modal-content {
+        width: auto;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+
+    .close-btn {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 1.06rem;
+        margin-bottom: 14px;
+    }
+
+    .text {
+        font-size: 0.81rem;
+        margin-bottom: 18px;
+    }
+
+    #openModalBtn {
+        width: 17.44rem;
+        height: 3.5rem;
+    }
+}
 
